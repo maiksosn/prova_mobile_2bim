@@ -1,19 +1,7 @@
-import React from "react";
-import { View ,StyleSheet} from "react-native";
+import React, { useState } from "react";
+import { View, Text, StyleSheet } from "react-native";
+import { TouchableOpacity } from "react-native-gesture-handler";
+import { NavigationContext } from "react-navigation";
+import api from "../service/api";
 
-export default function Index() {
-  
-  return (<View style={styles.container}>index</View>
-  
-  );
-
-}
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+export default function Index({ navigation }) {}
